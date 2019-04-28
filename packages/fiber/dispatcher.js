@@ -1,5 +1,5 @@
-import { Renderer } from 'react-core/createRenderer';
-import { get, isFn } from 'react-core/util';
+import { Renderer } from '../core/createRenderer';
+import { get, isFn } from '../core/util';
 function setter(compute, cursor, value) {
     this.updateQueue[cursor] = compute(cursor, value);
     Renderer.updateComponent(this, true);

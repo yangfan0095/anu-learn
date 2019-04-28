@@ -1,4 +1,4 @@
-import { get } from "react-core/util";
+import { get } from "../core/util";
 
 export function findHostInstance(fiber) {
     if (!fiber) {

@@ -1,4 +1,4 @@
-import { extend } from "react-core/util";
+import { extend } from "../core/util";
 
 // 实例化组件
 export function Fiber(vnode) {

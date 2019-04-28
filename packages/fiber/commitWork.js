@@ -1,4 +1,4 @@
-import { emptyObject, returnFalse } from 'react-core/util';
+import { emptyObject, returnFalse } from '../core/util';
 import {
     NOWORK,
     WORKING,
@@ -16,8 +16,8 @@ import {
     effectNames
 } from './effectTag';
 import { guardCallback, removeFormBoundaries } from './ErrorBoundary';
-import { fakeObject } from 'react-core/Component';
-import { Renderer } from 'react-core/createRenderer';
+import { fakeObject } from '../core/Component';
+import { Renderer } from '../core/createRenderer';
 import { Refs } from './Refs';
 
 /**

@@ -1,4 +1,4 @@
-import { oneObject, camelize } from "react-core/util";
+import { oneObject, camelize } from "../../core/util";
 export let rnumber = /^-?\d+(\.\d+)?$/;
 /**
  * 为元素样子设置样式

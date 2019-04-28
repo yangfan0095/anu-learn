@@ -6,9 +6,9 @@ import {
     emptyObject,
     topNodes,
     topFibers
-} from 'react-core/util';
-import { Renderer, createRenderer } from 'react-core/createRenderer';
-import { render, createContainer } from 'react-fiber/scheduleWork';
+} from '../../core/util';
+import { Renderer, createRenderer } from '../../core/createRenderer';
+import { render, createContainer } from '../../fiber/scheduleWork';
 import { duplexAction, fireDuplex } from './duplex';
 
 const reuseTextNodes = []; //文本节点不能加属性，样式与事件，重用没有副作用

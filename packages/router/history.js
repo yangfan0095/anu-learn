@@ -1,4 +1,4 @@
-import { getWindow } from 'react-core/util';
+import { getWindow } from '../core/util';
 //计划有history hash iframe三种模式
 export var modeObject = {};
 //伪造一个Location对象

@@ -1,6 +1,6 @@
 import { document, modern, contains } from './browser';
-import { isFn, noop, toLowerCase } from 'react-core/util';
-import { Renderer } from 'react-core/createRenderer';
+import { isFn, noop, toLowerCase } from '../../core/util';
+import { Renderer } from '../../core/createRenderer';
 import { enqueueDuplex } from './duplex';
 export let rform = /textarea|input|select|option/i;
 let globalEvents = {};

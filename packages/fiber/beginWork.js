@@ -1,8 +1,8 @@
-import { extend, typeNumber, isFn, gDSFP, gSBU } from 'react-core/util';
-import { fiberizeChildren } from 'react-core/createElement';
-import { AnuPortal } from 'react-core/createPortal';
+import { extend, typeNumber, isFn, gDSFP, gSBU } from '../core/util';
+import { fiberizeChildren } from '../core/createElement';
+import { AnuPortal } from '../core/createPortal';
 
-import { Renderer } from 'react-core/createRenderer';
+import { Renderer } from '../core/createRenderer';
 import { createInstance, UpdateQueue } from './createInstance';
 import { Fiber } from './Fiber';
 import {

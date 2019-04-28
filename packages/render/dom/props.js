@@ -3,7 +3,7 @@ import { patchStyle } from "./style";
 import { eventAction, rform } from "./event";
 import { typeNumber, emptyObject, noop } from "react-core/util";
 //import { duplexAction } from './duplex';
-import { DUPLEX } from "react-fiber/effectTag";
+import { DUPLEX } from "../../fiber/effectTag";
 //布尔属性的值末必为true,false
 //https://github.com/facebook/react/issues/10589
 

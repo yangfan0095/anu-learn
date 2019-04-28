@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import { miniCreateClass, getWindow } from "react-core/util";
+import { miniCreateClass, getWindow } from "../core/util";
 
 import {
     startsWith,

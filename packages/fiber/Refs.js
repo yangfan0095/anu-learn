@@ -1,5 +1,5 @@
 import { pushError } from './ErrorBoundary';
-import { typeNumber } from 'react-core/util';
+import { typeNumber } from '../core/util';
 
 //fix 0.14对此方法的改动，之前refs里面保存的是虚拟DOM
 

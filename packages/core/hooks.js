@@ -1,5 +1,5 @@
-import { dispatcher } from 'react-fiber/dispatcher';
-import { PASSIVE, HOOK } from 'react-fiber/effectTag';
+import { dispatcher } from '../fiber/dispatcher';
+import { PASSIVE, HOOK } from '../fiber/effectTag';
 export function useState(initValue) {
     return dispatcher.useReducer(null, initValue);
 }

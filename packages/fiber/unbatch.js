@@ -1,5 +1,5 @@
-import { miniCreateClass } from "react-core/util";
-import { Component } from "react-core/Component";
+import { miniCreateClass } from "../core/util";
+import { Component } from "../core/Component";
 
 export var Unbatch = miniCreateClass(
     function Unbatch(props) {

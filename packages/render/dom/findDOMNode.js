@@ -1,4 +1,4 @@
-import { findHostInstance } from "react-fiber/findHostInstance";
+import { findHostInstance } from "../../fiber/findHostInstance";
 
 // [Top API] ReactDOM.findDOMNode
 export function findDOMNode(fiber) {

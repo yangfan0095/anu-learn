@@ -1,6 +1,6 @@
-import { noop, get } from "react-core/util";
-import { Renderer } from "react-core/createRenderer";
-import { fakeObject } from "react-core/Component";
+import { noop, get } from "../core/util";
+import { Renderer } from "../core/createRenderer";
+import { fakeObject } from "../core/Component";
 import {
     NOWORK,
     CAPTURE,

@@ -1,6 +1,6 @@
 import { reconcileDFS } from './beginWork';
 import { commitDFS } from './commitWork';
-import { Renderer } from 'react-core/createRenderer';
+import { Renderer } from '../core/createRenderer';
 import {
     effects,
     isMounted,
@@ -11,7 +11,7 @@ import {
     topNodes,
     typeNumber,
     topFibers
-} from 'react-core/util';
+} from '../core/util';
 import { Unbatch } from './unbatch';
 import { Fiber } from './Fiber';
 

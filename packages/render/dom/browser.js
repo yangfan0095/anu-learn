@@ -1,4 +1,4 @@
-import { typeNumber, getWindow, noop } from 'react-core/util';
+import { typeNumber, getWindow, noop } from '../../core/util';
 //用于后端的元素节点
 export function DOMElement(type) {
     this.nodeName = type;

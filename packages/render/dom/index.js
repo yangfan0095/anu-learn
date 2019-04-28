@@ -1,19 +1,19 @@
-import { Children } from 'react-core/Children';
-import { PropTypes } from 'react-core/PropTypes';
-import { Component } from 'react-core/Component';
-import { PureComponent } from 'react-core/PureComponent';
-import { createRef, forwardRef } from 'react-core/createRef';
-import { createPortal } from 'react-core/createPortal';
-import { createContext } from 'react-core/createContext';
-import { useState, useReducer, useEffect, useLayoutEffect, useCallback, useMemo, useRef, useContext, useImperativeHandle } from 'react-core/hooks';
+import { Children } from '../../core/Children';
+import { PropTypes } from '../../core/PropTypes';
+import { Component } from '../../core/Component';
+import { PureComponent } from '../../core/PureComponent';
+import { createRef, forwardRef } from '../../core/createRef';
+import { createPortal } from '../../core/createPortal';
+import { createContext } from '../../core/createContext';
+import { useState, useReducer, useEffect, useLayoutEffect, useCallback, useMemo, useRef, useContext, useImperativeHandle } from '../../core/hooks';
 
 import {
     createElement,
     cloneElement,
     isValidElement,
     createFactory
-} from 'react-core/createElement';
-import { Fragment, getWindow } from 'react-core/util';
+} from '../../core/createElement';
+import { Fragment, getWindow } from '../../core/util';
 
 import { findDOMNode } from './findDOMNode';
 import { DOMRenderer } from './DOMRenderer';
